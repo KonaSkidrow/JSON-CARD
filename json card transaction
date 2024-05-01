@@ -1,0 +1,196 @@
+{
+    "name": "JSON_CARD_1b",
+    "metadata-version": 1,
+    "extension_version": 5,
+    "author": "<your name>",
+    "platforms": [
+        "kodular"
+    ],
+    "keys": [
+"id",
+"image",
+"transfer",
+"purchase",
+"transactions_id",
+"transactions",
+"cash",
+"status",
+"data",
+"time"
+],
+    "components": [
+        {
+            "id": "Card_View_Boss{id}",
+            "type": "NiotronCardView",
+            "properties": {
+                "AlignHorizontal": 3,
+                "AlignVertical": 2,
+                "BackgroundColor": -3026479,
+                "CompatPadding": true,
+                "Elevation": 8,
+                "Width": -2,
+                "Radius": 10,
+                "RippleEnabled": false
+            },
+            "components": [
+                {
+                    "id": "Horizontal_ArrangementA{id}",
+                    "type": "HorizontalArrangement",
+                    "properties": {
+                        "AlignVertical": 2,
+                        "BackgroundColor": 16777215,
+                        "Height": -2,
+                        "Width": -2
+                    },
+                    "components": [
+                        {
+                            "id": "SpacerA{id}",
+                            "type": "Spacer",
+                            "properties": {
+                                "Width": -1001
+                            }
+                        },
+                        {
+                            "id": "Card_View_Img{id}",
+                            "type": "NiotronCardView",
+                            "properties": {
+                                "AlignHorizontal": 3,
+                                "AlignVertical": 2,
+                                "BackgroundColor": -8156253,
+                                "CompatPadding": true,
+                                "Height": 64,
+                                "Width": 64,
+                                "Radius": 10,
+                                "RippleEnabled": false
+                            },
+                            "components": [
+                                {
+                                    "id": "Image_Logo{id}",
+                                    "type": "Image",
+                                    "properties": {
+                                        "Height": 32,
+                                        "Width": 32,
+                                        "Picture": "{image}"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "SpacerB{id}",
+                            "type": "Spacer",
+                            "properties": {
+                                "Width": -1001
+                            }
+                        },
+                        {
+                            "id": "Vertical_ArrangementB{id}",
+                            "type": "VerticalArrangement",
+                            "properties": {
+                                "BackgroundColor": 16777215
+                            },
+                            "components": [
+                                {
+                                    "id": "TRANSFER{id}",
+                                    "type": "Label",
+                                    "properties": {
+                                        "FontBold": true,
+                                        "FontSize": 18,
+                                        "FontTypeface": 3,
+                                        "Text": "{transfer}"
+                                    }
+                                },
+                                {
+                                    "id": "Purchase_from{id}",
+                                    "type": "Label",
+                                    "properties": {
+                                        "FontTypeface": 3,
+                                        "Text": "{purchase}"
+                                    }
+                                },
+                                {
+                                    "id": "Transactions_ID{id}",
+                                    "type": "Label",
+                                    "properties": {
+                                        "FontSize": 14,
+                                        "FontTypeface": 3,
+                                        "Text": "{transactions_id}",
+                                        "TextColor": -11447983
+                                    }
+                                },
+                                {
+                                    "id": "OOOX{id}",
+                                    "type": "Label",
+                                    "properties": {
+                                        "FontTypeface": 3,
+                                        "Text": "{transactions}"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "SpacerC{id}",
+                            "type": "Spacer",
+                            "properties": {
+                                "Width": -2
+                            }
+                        },
+                        {
+                            "id": "Vertical_ArrangementC{id}",
+                            "type": "VerticalArrangement",
+                            "properties": {
+                                "AlignHorizontal": 2,
+                                "BackgroundColor": 16777215
+                            },
+                            "components": [
+                                {
+                                    "id": "CASH{id}",
+                                    "type": "Label",
+                                    "properties": {
+                                        "FontBold": true,
+                                        "FontSize": 18,
+                                        "FontTypeface": 3,
+                                        "Text": "{cash}"
+                                    }
+                                },
+                                {
+                                    "id": "confirmed{id}",
+                                    "type": "Label",
+                                    "properties": {
+                                        "FontBold": true,
+                                        "FontTypeface": 3,
+                                        "Text": "{confirmed}",
+                                        "TextColor": -12350906
+                                    }
+                                },
+                                {
+                                    "id": "data{id}",
+                                    "type": "Label",
+                                    "properties": {
+                                        "FontSize": 14,
+                                        "FontTypeface": 3,
+                                        "Text": "{data}"
+                                    }
+                                },
+                                {
+                                    "id": "time{id}",
+                                    "type": "Label",
+                                    "properties": {
+                                        "FontTypeface": 3,
+                                        "Text": "{time}"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "SpacerD{id}",
+                            "type": "Spacer",
+                            "properties": {
+                                "Width": -1001
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
