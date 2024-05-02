@@ -1,0 +1,39 @@
+{
+  "success": true,
+  "status": "ok",
+  "Transactions": [
+    {
+      "image": "Cash_grey.png",
+      "transfer": "Transfer cash",
+      "purchase": "Purchase from bank.com",
+      "transactions_id": "Transactions ID",
+      "transactions": "00X000X0XX00",
+      "cash": "+100.00$",
+      "status": "confirmed",
+      "data": "26.04.2024",
+      "time": "15.00"
+    },
+{
+      "image": "Cash_grey.png",
+      "transfer": "Cash-in",
+      "purchase": "Sent cash",
+      "transactions_id": "Transactions ID",
+      "transactions": "00X000X0XX00",
+      "cash": "+250.00$",
+      "status": "confirmed",
+      "data": "28.04.2024",
+      "time": "15.34"
+    },
+{
+      "image": "Cash_grey.png",
+      "transfer": "Buy NFT",
+      "purchase": "Purchase from OKX.com 10",
+      "transactions_id": "Transactions ID",
+      "transactions": "00X000X0XX00",
+      "cash": "-3500.00$",
+      "status": "confirmed",
+      "data": "30.04.2024",
+      "time": "15.03"
+    }
+  ]
+}
